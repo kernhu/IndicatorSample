@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LinearIndicator">
+        <attr name="android:layout_height" />
+        <!-- 进度条颜色 -->
+        <attr name="indicator_progress_color_start" format="color" />
+        <attr name="indicator_progress_color_middle" format="color" />
+        <attr name="indicator_progress_color_end" format="color" />
+        <!-- 进度背景颜色 -->
+        <attr name="indicator_background_color" format="color" />
+        <!-- 进度值 -->
+        <attr name="indicator_current_progress" format="float" />
+        <attr name="indicator_max_progress" format="float" />
+        <!-- 是否自动隐藏/显示 -->
+        <attr name="indicator_auto" format="boolean" />
+    </declare-styleable>
+</resources>

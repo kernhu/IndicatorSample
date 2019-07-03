@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.ardor.indicatorsample.MainActivity">
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+
+    <org.ardor.indicator.LinearIndicator
+        android:id="@+id/linear_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        app:indicator_auto="true"
+        app:indicator_background_color="#dedddd"
+        app:indicator_max_progress="100"
+        app:indicator_progress_color_end="#00ff72"
+        app:indicator_progress_color_middle="#00bc54"
+        app:indicator_progress_color_start="#6bffae" />
+
+</FrameLayout>
